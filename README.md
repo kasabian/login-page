@@ -77,3 +77,10 @@ For fetch permission info before you site loaded use angular2 'APP_INITIALIZER' 
 ### Tab communications
 
 Use localStorage for save login status and subscribe to localStorage change event for catch status on all open tabs.
+
+##### Count how lot of tabs are open 
+
+1. Each tabs create uniq kay in localStorage and update every few second own time. 
+2. Use one kay for all tabs but need master tab for determine queue for tabs update.
+
+And remove tabs which are not update long time.
