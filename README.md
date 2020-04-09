@@ -84,3 +84,6 @@ Use localStorage for save login status and subscribe to localStorage change even
 2. Use one kay for all tabs but need master tab for determine queue for tabs update.
 
 And remove tabs which are not update long time.
+
+
+See more about autocomplete: https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofilling-form-controls%3A-the-autocomplete-attribute
